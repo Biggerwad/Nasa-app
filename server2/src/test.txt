@@ -1,0 +1,7 @@
+To test API, you make requests against node http servers.
+
+Use Super test to do that 
+it provides assertions 
+
+What the the super test does
+calls the request function and listenst for the app. and the requests made

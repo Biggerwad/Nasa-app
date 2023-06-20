@@ -1,0 +1,43 @@
+There is always a router for a controller 
+
+BUT many models can be used by another controller.
+
+We separate them because models don't always match up.
+
+The better we do this, the faster we understand it
+
+instead of this cd server2 && npm run watch 
+run this 
+
+npm run watch --prefix server2
+meaning, do the first inside the second folder.
+
+running project in production
+
+To kill the process manually when “EADDRINUSE” happens on Mac/Linux and Windows.
+netstat -ano|findstr "PID :3000"  
+THEN 
+taskkill /pid 18264 /f
+
+There is a middleware for loging
+MORGAN! 
+
+Redirecting log to various different streams.
+You can 
+Sending logs to many 
+
+A controller is a part of the mvc that manages the flow of data in the application.
+
+Aborting/Deleting launches
+
+I dentifying by flight number
+PUT can DELETE/REPLACE data 
+DELETE is best though
+
+Mongodb 
+create method 
+upsert = insert and update combined together.
+How find works (FINDING IN MONGODB!);
+empty object will bring all.
+second object: projection.. list of fields to include in the result!
+projection can be string too.

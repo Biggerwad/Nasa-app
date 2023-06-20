@@ -34,6 +34,7 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
       target,
     });
 
+    //  set success
     const success = response.ok;
     if (success) {
       getLaunches();
@@ -50,6 +51,7 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
     const response = await httpAbortLaunch(id);
 
     const success = response.ok;
+
     if (success) {
       getLaunches();
       onAbortSound();
