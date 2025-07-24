@@ -7,7 +7,7 @@
 /coverage
 
 # production
-./env
+.env
 /build
 
 # misc
