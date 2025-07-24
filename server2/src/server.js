@@ -1,5 +1,6 @@
 const http = require('http');
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 const app = require('./app');
 
@@ -8,7 +9,7 @@ const { error } = require('console');
 
 const PORT = process.env.PORT || 8000;
 
-const MONGO_URL = "mongodb://localhost:27017/NASA";
+const MONGO_URL =  process.env.MONGO_URL;
 const server = http.createServer(app);
 
 // Only be triggered once
